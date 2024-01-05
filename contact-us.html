@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: gray">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body style="margin: 0; padding: 0">
+    <nav>
+      <ul class="nav-list">
+        <li>
+          <a href="./contact-us.html">Contact Us</a>
+        </li>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./about-us.html">About Us</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="contact-wrapper">
+      <header>
+        <h1>Feel free to Contact</h1>
+      </header>
+
+      <section class="form-section flex">
+        <h2>Quick Apply</h2>
+        <form action="" class="apply-form" style="background-color: white">
+          <div>
+            <label for="firstname">Firstname</label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              required
+              maxlength="15"
+            />
+          </div>
+
+          <div>
+            <label for="lastname">Lastname</label>
+            <input type="text" id="lastname" name="lastname" required />
+          </div>
+
+          <div>
+            <label for="age">Age</label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              required
+              max="55"
+              min="20"
+            />
+          </div>
+          <div>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender" required>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div>
+            <label for="experience">Experience</label>
+            <input type="range" id="experience" name="experience" required />
+          </div>
+
+          <div>
+            <label for="departament"> <strong>Departament</strong></label>
+            <div>
+              <div>
+                <input type="checkbox" name="departament" />
+                Development
+              </div>
+              <div>
+                <input type="checkbox" name="departament" />
+                Data Science
+              </div>
+              <div>
+                <input type="checkbox" name="departament" />
+                Cloud Services
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <label for="preferences">Work Preferences</label>
+            <div><input type="radio" name="preferences" required />Remote</div>
+            <div><input type="radio" name="preferences" required />OnSite</div>
+            <div><input type="radio" name="preferences" required />Hybrid</div>
+          </div>
+
+          <div>
+            <label for="CV">Send us your CV:</label>
+            <input type="file" name="CV" accept=".pdf, .doc, .docx" />
+          </div>
+
+          <div>
+            <textarea
+              name="info"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="additional info"
+            ></textarea>
+          </div>
+          <button type="submit">Apply</button>
+        </form>
+      </section>
+      <section>
+        <h2>
+          For general information about Microsoft, please contact us through the
+          following:
+        </h2>
+        <ul>
+          <li>
+            Email: <a href="mailto:info@microsoft.com">info@microsoft.com</a>
+          </li>
+          <li>Phone: 123-321-999</li>
+          <li>
+            Website:
+            <a href="https://www.microsoft.com" target="_blank"
+              >www.microsoft.com</a
+            >
+          </li>
+          <li>
+            LinkedIn:
+            <a href="https://www.linkedin.com/company/microsoft" target="_blank"
+              >Microsoft</a
+            >
+          </li>
+          <li>
+            Twitter:
+            <a href="https://twitter.com/Microsoft" target="_blank"
+              >@Microsoft</a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>

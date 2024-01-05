@@ -4,63 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <nav>
-      <ul
-        style="list-style: none; display: flex; justify-content: space-around"
-      >
+      <ul class="nav-list">
         <li>
-          <a href="./">Home</a>
+          <a href="./contact-us.html">Contact Us</a>
         </li>
-        <li><a href="./">Projects</a></li>
-        <li><a href="./">Contact</a></li>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./about-us.html">About Us</a>
+        </li>
       </ul>
     </nav>
-    <div style="text-align: center">
-      <header>
-        <h1>Article Header</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-          mollitia ipsa incidunt voluptate, numquam beatae atque qui dolorum
-          iure unde cum fuga eveniet blanditiis repellendus, ducimus neque
-          facere similique porro. Distinctio reiciendis ab consequatur
-          dignissimos dicta labore possimus iste repudiandae fugit vel ratione,
-          voluptatem dolorum eligendi rem delectus. Cum, sint.
-        </p>
-      </header>
-      <main>
-        <div>
-          <h2>SubSection 1</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos itaque
-            voluptates, cum provident nemo quam commodi, quia voluptatibus
-            voluptatem doloribus illo alias iusto ratione quasi veniam nam
-            debitis! Molestias, reiciendis?
-          </p>
-        </div>
-        <div>
-          <h2>SubSection 2</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            sequi, quam aperiam rerum facilis corrupti! Perspiciatis sint,
-            tenetur labore quas architecto eius magni consectetur animi illo
-            voluptates impedit fugiat doloribus?
-          </p>
-        </div>
-      </main>
-      <footer style="text-align: end">
-        <details style="text-align: initial">
-          <summary>Find More</summary>
-          <h3>Details</h3>
-          <ol style="list-style: georgian">
-            <li>detail 1</li>
-            <li>detail 2</li>
-            <li>detail 3</li>
-          </ol>
-          &copy;Copyright 2023 by ...
-        </details>
-      </footer>
-    </div>
+    <header>
+      <h1>Discover Your Future: Open Positions at Microsoft</h1>
+    </header>
+    <main class="main-section">
+      <img
+        src="./img/microsoft.jpg"
+        alt="Microsoft Building"
+        class="microsoft"
+      />
+
+      <p>
+        Are you a skilled software developer looking for exciting opportunities?
+        Microsoft, a leading global technology company, is actively searching
+        for talented individuals like you to join its dynamic team. As a pioneer
+        in the tech industry, Microsoft offers diverse roles in software
+        development across cutting-edge projects, including operating systems,
+        cloud computing, artificial intelligence, and more.
+        <br />
+        At Microsoft, we value creativity, problem-solving abilities, and a
+        genuine passion for technology. We are on the lookout for individuals
+        who can contribute to our ongoing innovation and success. If you're
+        eager to be part of a company at the forefront of shaping the future of
+        technology, explore our various job openings and discover how you can
+        make a meaningful impact with Microsoft. Join us on this exciting
+        journey of pushing the boundaries of what's possible in software
+        development. Your skills and expertise could be the next key ingredient
+        in our transformative projects. Explore your potential with Microsoft
+        today!
+      </p>
+    </main>
+    <section style="text-align: center">
+      <h2>Open Positions</h2>
+      <table class="positons-table">
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Department</th>
+            <th>Location</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Software Engineer</td>
+            <td>Development</td>
+            <td>Tbilisi</td>
+            <td>3+ years</td>
+          </tr>
+          <tr>
+            <td>Data Scientist</td>
+            <td>Data Science</td>
+            <td>New York</td>
+            <td>5+ years</td>
+          </tr>
+          <tr>
+            <td>Cloud Solutions Architect</td>
+            <td>Cloud Services</td>
+            <td>Remote</td>
+            <td>7+ years</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </body>
 </html>
