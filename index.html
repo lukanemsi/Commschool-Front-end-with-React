@@ -3,63 +3,391 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Blockify</title>
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <nav>
-      <ul
-        style="list-style: none; display: flex; justify-content: space-around"
-      >
-        <li>
-          <a href="./">Home</a>
-        </li>
-        <li><a href="./">Projects</a></li>
-        <li><a href="./">Contact</a></li>
-      </ul>
-    </nav>
-    <div style="text-align: center">
-      <header>
-        <h1>Article Header</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-          mollitia ipsa incidunt voluptate, numquam beatae atque qui dolorum
-          iure unde cum fuga eveniet blanditiis repellendus, ducimus neque
-          facere similique porro. Distinctio reiciendis ab consequatur
-          dignissimos dicta labore possimus iste repudiandae fugit vel ratione,
-          voluptatem dolorum eligendi rem delectus. Cum, sint.
-        </p>
+    <div class="container">
+      <header class="header-wrapper">
+        <nav>
+          <div class="logo">
+            <span>Blockify.</span>
+          </div>
+          <div class="nav-wrapper">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>Products</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">Pricings</a>
+              </li>
+              <li>
+                <a href="#">Company</a>
+              </li>
+              <li>
+                <a href="#">Resources</a>
+              </li>
+            </ul>
+          </div>
+          <div class="btn-wrapper">
+            <button class="btn-primary btn-sign-up">
+              <span>Sign Up</span>
+            </button>
+            <button class="btn-primary btn-log-in">
+              <span>LOG IN</span>
+            </button>
+          </div>
+        </nav>
       </header>
       <main>
-        <div>
-          <h2>SubSection 1</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos itaque
-            voluptates, cum provident nemo quam commodi, quia voluptatibus
-            voluptatem doloribus illo alias iusto ratione quasi veniam nam
-            debitis! Molestias, reiciendis?
-          </p>
-        </div>
-        <div>
-          <h2>SubSection 2</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            sequi, quam aperiam rerum facilis corrupti! Perspiciatis sint,
-            tenetur labore quas architecto eius magni consectetur animi illo
-            voluptates impedit fugiat doloribus?
-          </p>
-        </div>
+        <section id="banner">
+          <article class="banner-article">
+            <h1>
+              Multipurpose <br />
+              Saas Website for <br />
+              Increasing Revenue
+            </h1>
+            <p>
+              Brace yourself for an extraordinary journey into the future of
+              <br />
+              technology.
+            </p>
+
+            <div class="user-email-input">
+              <label for="user-email" hidden></label>
+              <input
+                type="email"
+                name="user-email"
+                placeholder="Your Email Address"
+              />
+              <button class="btn-primary btn-main" type="submit">
+                Get Started
+              </button>
+            </div>
+          </article>
+          <div>
+            <img
+              src="./img/dekstop-blokify.png"
+              alt="statistics page of blockify"
+            />
+          </div>
+        </section>
+
+        <section class="clients-section">
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="./img/clients/shopify.png" alt="shopify logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./img/clients/amazon.png" alt="amazon logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./img/clients/alibaba.png" alt="alibaba logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./img/clients/snapdeal.png" alt="snapdeal logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./img/clients/walmart.png" alt="walmart logo"
+              /></a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="company-features-section">
+          <article>
+            <div class="page-flag">OUR FEATURES</div>
+            <h2>How our data will help your <br />day to day business</h2>
+            <p>
+              Brace yourself for an extraordinary journey into the <br />
+              future of technology.
+            </p>
+            <article class="feature">
+              <div class="feature-header">
+                <img src="./img/features/security.png" alt="security icon" />
+                <h3>Data Security</h3>
+              </div>
+              <p>
+                Gain valuable insights into your operations. Your brand is more
+                than just a <br />
+                logo; it's the essence of your business. We create compelling
+                brand identities <br />
+                that tell your unique story and resonate with your target
+                audience.
+              </p>
+              <hr />
+            </article>
+            <article class="feature">
+              <div class="feature-header">
+                <img src="./img/features/analitics.png" alt="analitics icon" />
+                <h3>Analytics</h3>
+              </div>
+              <p>
+                Gain valuable insights into your operations. Your brand is more
+                than just a <br />
+                logo; it's the essence of your business. We create compelling
+                brand identities <br />
+                that tell your unique story and resonate with your target
+                audience.
+              </p>
+              <hr />
+            </article>
+          </article>
+          <div>
+            <img
+              src="./img/laptop-blokify.png"
+              alt="statistics page of blockify"
+            />
+          </div>
+        </section>
+
+        <section class="recomendation-section">
+          <article>
+            <div class="page-flag">TESTIMONIALS</div>
+            <h2>Satisfied client from big brands</h2>
+            <p>
+              Brace yourself for an extraordinary journey into the future of
+              technology.
+            </p>
+          </article>
+          <div class="recom-wrapper">
+            <div class="recom">
+              <img
+                src="./img/referrers/michelle.png"
+                alt="profile picture of referrer"
+              />
+              <h4>Michelle Muara</h4>
+              <p>
+                Integration with PLUCK has <br />transformed our app.
+                Exceptional <br />
+                support and remarkable results. Highly <br />
+                recommended!
+              </p>
+              <img src="./img/stars.png" alt="star rating picture" />
+            </div>
+            <div class="recom">
+              <img
+                src="./img/referrers/reddington.png"
+                alt="profile picture of referrer"
+              />
+              <h4>Reddington M</h4>
+              <p>
+                Integration with PLUCK has <br />transformed our app.
+                Exceptional <br />
+                support and remarkable results. Highly <br />
+                recommended!
+              </p>
+              <img src="./img/stars.png" alt="star rating picture" />
+            </div>
+
+            <div class="recom">
+              <img
+                src="./img/referrers/Derick.png"
+                alt="profile picture of referrer"
+              />
+              <h4>Derick McKinney</h4>
+              <p>
+                Integration with PLUCK has <br />transformed our app.
+                Exceptional <br />
+                support and remarkable results. Highly <br />
+                recommended!
+              </p>
+              <img src="./img/stars.png" alt="star rating picture" />
+            </div>
+          </div>
+        </section>
+
+        <section class="faqs-section">
+          <article>
+            <div class="page-flag">FAQs</div>
+            <h2>Common question in your mind</h2>
+            <p>We show the frequently question that our ask</p>
+          </article>
+
+          <div class="question-wrapper">
+            <details class="question">
+              <summary>
+                Who can you Blockify Template?
+                <hr />
+              </summary>
+              <p>
+                Actually everyone can use our template for their business
+                purpoes, from saas company, software company, company profile
+                and you can use these template <br />for your personal website
+                or project that you’re working right know. You can use it on
+                your project easily by adjusting on the subject of the project
+                that you’re <br />workign right know.
+              </p>
+            </details>
+
+            <details class="question">
+              <summary>
+                How secure our data on this platform?
+                <hr />
+              </summary>
+              <p>
+                Actually everyone can use our template for their business
+                purpoes, from saas company, software company, company profile
+                and you can use these template <br />for your personal website
+                or project that you’re working right know. You can use it on
+                your project easily by adjusting on the subject of the project
+                that you’re <br />workign right know.
+              </p>
+            </details>
+
+            <details class="question">
+              <summary>
+                How much many i need to pay to use this platform?
+                <hr />
+              </summary>
+              <p>
+                Actually everyone can use our template for their business
+                purpoes, from saas company, software company, company profile
+                and you can use these template <br />for your personal website
+                or project that you’re working right know. You can use it on
+                your project easily by adjusting on the subject of the project
+                that you’re <br />workign right know.
+              </p>
+            </details>
+
+            <details class="question">
+              <summary>
+                Can i connect it with app that our company already use?
+                <hr />
+              </summary>
+              <p>
+                Actually everyone can use our template for their business
+                purpoes, from saas company, software company, company profile
+                and you can use these template <br />for your personal website
+                or project that you’re working right know. You can use it on
+                your project easily by adjusting on the subject of the project
+                that you’re <br />workign right know.
+              </p>
+            </details>
+
+            <details class="question">
+              <summary>
+                Can i connect it with app that our company already use?
+                <hr />
+              </summary>
+              <p>
+                Actually everyone can use our template for their business
+                purpoes, from saas company, software company, company profile
+                and you can use these template <br />for your personal website
+                or project that you’re working right know. You can use it on
+                your project easily by adjusting on the subject of the project
+                that you’re <br />workign right know.
+              </p>
+            </details>
+          </div>
+        </section>
+
+        <section class="get-started-section">
+          <div class="get-started-wrapper">
+            <h2>Get started increasing your revenue</h2>
+            <p>
+              Join and integrate our app to increase the revenue and decreasing
+              your production cost
+            </p>
+            <div class="user-email-input">
+              <label for="user-email" hidden></label>
+              <input
+                type="email"
+                name="user-email"
+                placeholder="Your Email Address"
+              />
+              <button class="btn-primary btn-main" type="submit">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </section>
       </main>
-      <footer style="text-align: end">
-        <details style="text-align: initial">
-          <summary>Find More</summary>
-          <h3>Details</h3>
-          <ol style="list-style: georgian">
-            <li>detail 1</li>
-            <li>detail 2</li>
-            <li>detail 3</li>
-          </ol>
-          &copy;Copyright 2023 by ...
-        </details>
+      <footer>
+        <section class="footer-section">
+          <article class="blockify-footer">
+            <p>
+              <span>Blockify.</span>
+            </p>
+            <p>
+              Helping your company to increase <br />
+              your revenue stream, easy <br />
+              integration process and low cost <br />
+              production
+            </p>
+            <p>
+              <span>support@blockify.com</span>
+            </p>
+            <p>
+              <span>+1-800-123 4567</span>
+            </p>
+          </article>
+          <article class="company-footer">
+            <span>Company</span>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </article>
+          <article class="contact-footer">
+            <span>Contact</span>
+            <ul>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Partners</a></li>
+            </ul>
+          </article>
+          <article class="discovery-footer">
+            <span>Discover</span>
+            <ul>
+              <li><a href="#">Affiliate</a></li>
+              <li><a href="#">Partner Program</a></li>
+            </ul>
+          </article>
+        </section>
+
+        <div class="copyright-wrapper">
+          <p>Copyright © 2032 Creativo®. All rights reserved.</p>
+          <div class="social-networks-wrapper">
+            <a href="#">
+              <img
+                class="network-img"
+                src="./img/social-nets/twitter.png"
+                alt="twitter logo"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="network-img"
+                src="./img/social-nets/linkedin.png"
+                alt="linkdin logo"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="network-img"
+                src="./img/social-nets/facebook.png"
+                alt="facebook logo"
+              />
+            </a>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
