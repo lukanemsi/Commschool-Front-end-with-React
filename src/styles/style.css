@@ -1,0 +1,49 @@
+@import "fonts.css";
+@import "layout.css";
+@import "global.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    cursor: url("./../img/mouseSecondary.svg"), auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.background-p{
+    background-image: url("/src/img/back.png");
+    background-size: cover;
+}
+.underline{
+    border-bottom: 1px solid black;
+}
+.arrow-black-right::after{
+    content: url("/src/img/arrowBlack.svg");
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    margin-left: 18px;
+}
+.star-before::before{
+    content: url("/src/img/star.svg");
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: 11px;
+}
+.arrow-hover:hover{
+    color: red;
+}
+.arrow-hover:hover::after{
+    content: url("/src/img/servicesArrow.svg");
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;   
+}

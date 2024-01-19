@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "neueBold";
+    src: url("./fonts/tt_firs_neue/medium.ttf");
+}
+@font-face {
+    font-family: "neueRegular";
+    src: url("./fonts/tt_firs_neue/regular.ttf");
+}
+@font-face {
+    font-family: "neueThin";
+    src: url("./fonts/tt_firs_neue/thin.ttf");
+}
+
+.neueBold{
+    font-family: "neueBold";
+}
+.neueRegular{
+    font-family: "neueRegular" ;
+}
+.neueThin{
+    font-family: "neueThin";
+}
+
+/* FONTS  */
+.fw-lighter{
+    font-weight: lighter;
+}
+
+.fw-300{
+    font-weight: 300px;
+}
+
+.fs-96{
+    font-size: 96px;
+}
+.fs-64{
+    font-size: 64px;
+}
+.fs-48{
+    font-size: 48px;
+}
+.fs-36{
+    font-size: 36px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-18{
+    font-size: 18px;
+}
