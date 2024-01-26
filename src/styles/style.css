@@ -1,0 +1,42 @@
+h1{
+    font-family: "Playfair Display";
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -1px;
+}
+p{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+h2{
+    font-family: "Playfair Display";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1px;
+}
+.learn-more{
+    color: #2F2E41;
+    font-weight: 600;
+    background: linear-gradient(to top, #C5C2FF 50%, transparent 50%);
+    text-decoration: none;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition-duration: 2s;
+}
+
+.interesting-sec{
+    background-color: #2F2E41;
+    padding: 50px 25px 25px 25px;
+}
+.interesting-sec h2{
+    color: white;
+}
