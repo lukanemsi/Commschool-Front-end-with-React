@@ -40,3 +40,8 @@ h2{
 .interesting-sec h2{
     color: white;
 }
+
+img{
+    width: 100%;
+    height: 100%;
+}
