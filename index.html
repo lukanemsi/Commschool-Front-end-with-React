@@ -3,7 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <title>Movies</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <p>Movie App</p>
+        <div class="filter-bar">
+          <input type="text" id="filterInput" placeholder="Type to filter" />
+          <button onclick="filterMovies()">Submit</button>
+        </div>
+      </header>
+      <div id="movie-wrapper"></div>
+      <div id="seats-wrapper"></div>
+      <div id="pagginator"></div>
+    </div>
+    <script type="module" src="./src/scripts/script.js"></script>
+  </body>
 </html>
