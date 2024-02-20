@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body>
+    <div class="battle-wrapper">
+      <div>
+        <h2 class="team-title">My Team</h2>
+        <div id="poke_contianer_battle"></div>
+      </div>
+      <div id="my-win">WINNER!</div>
+      <div class="battle-img" onclick="fight()">
+        <img src="./src/img/fight.svg" alt="fight" />
+      </div>
+      <div id="oponent-win">WINNER!</div>
+      <div>
+        <div id="opponent_container"></div>
+        <h2 class="team-title">Opponent Team</h2>
+      </div>
+    </div>
+
+    <script src="./src/js/battle.js"></script>
+  </body>
+</html>
